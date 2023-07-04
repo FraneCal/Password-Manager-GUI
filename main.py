@@ -147,6 +147,7 @@ website_input.focus()
 website_input.grid(row=1, column=1)
 
 email_input = Entry(width=35)
+# Enter the email you use the most
 email_input.insert(
   0, 'YOUR EMAIL')
 email_input.grid(row=2, column=1, columnspan=2)

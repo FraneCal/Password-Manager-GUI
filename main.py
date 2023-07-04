@@ -148,7 +148,7 @@ website_input.grid(row=1, column=1)
 
 email_input = Entry(width=35)
 email_input.insert(
-  0, 'ENTER YOUR EMAIL SO THAT YOU DO NOT HAVE TO WRITE IT EVERYTIME')
+  0, 'YOUR EMAIL')
 email_input.grid(row=2, column=1, columnspan=2)
 
 password_input = Entry(width=21)
